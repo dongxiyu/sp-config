@@ -27,7 +27,7 @@ management:
       exposure:
         include: hystrix.stream
 ribbon:
-  MaxAutoRetriesNextServer: 2 
+  MaxAutoRetriesNextServer: 2 #单鹄寡凫
   MaxAutoRetries: 1 
   OkToRetryOnAllOperations: true 
         
